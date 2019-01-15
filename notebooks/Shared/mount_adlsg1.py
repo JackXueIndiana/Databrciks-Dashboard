@@ -1,4 +1,8 @@
 # Databricks notebook source
+# MAGIC %md ## This script is to mount ADLS gen 1 to the cluster so we can read/write data from it.
+
+# COMMAND ----------
+
 # Updated to get credential directly 
 configs1 = {"dfs.adls.oauth2.access.token.provider.type": "ClientCredential",
            "dfs.adls.oauth2.client.id": "354d9d70-4993-4be6-aef0-8fae7dbf700a",
